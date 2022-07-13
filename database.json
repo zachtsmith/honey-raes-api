@@ -1,0 +1,84 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Maximus Orellius",
+            "email": "hpassfield7@netvibes.com",
+            "isStaff": "false"
+        },
+        {
+            "id": 2,
+            "name": "Mrs. Alyssa MacGyver",
+            "email": "alyssa@netvibes.com",
+            "isStaff": "false"
+        },
+        {
+            "id": 3,
+            "name": "Silvia Stark",
+            "email": "silvia@netvibes.com",
+            "isStaff": "false"
+        },
+        {
+            "id": 4,
+            "name": "Claude Rau",
+            "email": "claude@netvibes.com",
+            "isStaff": "true"
+        },
+        {
+            "id": 5,
+            "name": "Ignacio Kohler",
+            "email": "ignacio@netvibes.com",
+            "isStaff": "true"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "address": "",
+            "phoneNumber": "",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "address": "",
+            "phoneNumber": "",
+            "userId": 2
+        },
+        {
+            "id": 3,
+            "address": "",
+            "phoneNumber": "",
+            "userId": 3
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "specialty": "phones",
+            "rate": 18,
+            "userId": 4
+        },
+        {
+            "id": 2,
+            "specialty": "televisions",
+            "rate": 16,
+            "userId": 5
+        }
+    ],
+    "serviceTickets": [
+        {
+            "id": 1,
+            "userId": 2,
+            "description": "dropped phone, screen cracked",
+            "emergency": true,
+            "dateCompleted": "Mon Jan 17 2022 18:10:57 GMT-0600 (Central Standard Time)"
+        }
+    ],
+    "employeeTickets": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "serviceTicketId": 1
+        }
+    ]
+}
