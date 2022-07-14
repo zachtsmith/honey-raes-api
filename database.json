@@ -22,33 +22,75 @@
             "id": 4,
             "name": "Claude Rau",
             "email": "claude@netvibes.com",
-            "isStaff": "true"
+            "isStaff": "false"
         },
         {
             "id": 5,
             "name": "Ignacio Kohler",
             "email": "ignacio@netvibes.com",
+            "isStaff": "false"
+        },
+        {
+            "id": 6,
+            "name": "Boyd Dach",
+            "email": "Edd.Mayert59@hotmail.com",
+            "isStaff": "false"
+        },
+        {
+            "id": 7,
+            "name": "Penny Kulas Jr.",
+            "email": "Rod43@hotmail.com",
+            "isStaff": "true"
+        },
+        {
+            "id": 8,
+            "name": "Lynn McLaughlin",
+            "email": "Maximo.Howe@hotmail.com",
+            "isStaff": "true"
+        },
+        {
+            "id": 9,
+            "name": "Vernon Carter",
+            "email": "Jovani.Windler@hotmail.com",
             "isStaff": "true"
         }
     ],
     "customers": [
         {
             "id": 1,
-            "address": "",
-            "phoneNumber": "",
+            "address": "4601 Wiza Well",
+            "phoneNumber": "(997) 550-1587 x018",
             "userId": 1
         },
         {
             "id": 2,
-            "address": "",
-            "phoneNumber": "",
+            "address": "363 Erica Ports",
+            "phoneNumber": "(731) 809-6326 x7682",
             "userId": 2
         },
         {
             "id": 3,
-            "address": "",
-            "phoneNumber": "",
+            "address": "62590 Juanita Lakes",
+            "phoneNumber": "307.900.9136",
             "userId": 3
+        },
+        {
+            "id": 4,
+            "address": "588 Hulda Fall",
+            "phoneNumber": "915.911.2081 x14140",
+            "userId": 4
+        },
+        {
+            "id": 5,
+            "address": "3828 Camden Run",
+            "phoneNumber": "(909) 599-6552",
+            "userId": 5
+        },
+        {
+            "id": 6,
+            "address": "73295 Anna Ranch",
+            "phoneNumber": "1-712-399-9235 x31825",
+            "userId": 6
         }
     ],
     "employees": [
@@ -56,22 +98,63 @@
             "id": 1,
             "specialty": "phones",
             "rate": 18,
-            "userId": 4
+            "userId": 7
         },
         {
             "id": 2,
             "specialty": "televisions",
             "rate": 16,
-            "userId": 5
+            "userId": 8
+        },
+        {
+            "id": 3,
+            "specialty": "appliances",
+            "rate": 16,
+            "userId": 9
         }
     ],
     "serviceTickets": [
         {
             "id": 1,
             "userId": 2,
-            "description": "dropped phone, screen cracked",
+            "description": "Dropped phone, screen cracked",
             "emergency": true,
             "dateCompleted": "Mon Jan 17 2022 18:10:57 GMT-0600 (Central Standard Time)"
+        }, 
+        {
+            "id": 2,
+            "userId": 1,
+            "description": "Need my new system installed in my car",
+            "emergency": false,
+            "dateCompleted": "Fri Jul 15 2022 00:01:05 GMT-0500 (Central Daylight Time)"
+        },
+        {
+            "id": 3,
+            "userId": 4,
+            "description": "Laptop not charging.",
+            "emergency": false,
+            "dateCompleted": "Thu Jul 14 2022 02:46:22 GMT-0500 (Central Daylight Time)"
+        }, 
+        {
+            "id": 4,
+            "userId": 4,
+            "description": "Need antivirus installed on my computer and implemented at my office.",
+            "emergency": false,
+            "dateCompleted": "Fri Apr 01 2022 00:43:06 GMT-0500 (Central Daylight Time)"
+        },
+        {
+            "id": 5,
+            "userId": 4,
+            "description": "visualize vertical deliverables",
+            "emergency": true,
+            "dateCompleted": "Thu Jan 12 2023 16:29:16 GMT-0600 (Central Standard Time)"
+        }, 
+        {
+            "id": 6,
+            "userId": 3,
+            "description": "enable interactive ROI",
+            "emergency": false,
+            "dateCompleted": "Mon Jun 13 2022 11:41:44 GMT-0500 (Central Daylight Time)"
         }
     ],
     "employeeTickets": [
@@ -79,6 +162,11 @@
             "id": 1,
             "employeeId": 1,
             "serviceTicketId": 1
+        },
+        {
+            "id": 2,
+            "employeeId": 2,
+            "serviceTicketId": 2
         }
     ]
 }
